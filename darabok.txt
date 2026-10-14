@@ -31,3 +31,12 @@ D,2 F,2 A,2 G,F, | E,2 G,2 A,2 G,E, | F,2 E,2 D,2 E,F, | E,2 A,A, A,2 A,2 | D,2 
 F,2 D,D, E,2 A,2 | D,2 D,D, D,2 z2 :|
 |: F,2 F,F, F,2 E,F, | G,3 A, G,2 z F, | E,F,G,F, E,F,G,E, | F,3 G, A,2 z2 |
 A,2 G,G, G,2 F,F, | F,2 E,E, D,2 E,2 | F,2 E,D, E,2 A,A, | D,2 D,D, D,2 z2 :|
+
+X:1
+T:1. Szúrós gombóc – Prickly Ball
+M:4/4
+L:1/8
+K:D clef=bass
+z8 | z8 | F,2 A,2 D,2 F,2 | E,2 A,2 F,2 D,2 | F,2 A,2 D,2 F,2 | E,2 A,2 F,2 D,2 |
+F,2 A,2 D,2 F,2 | E,2 A,2 F,2 D,2 | F,2 A,2 D,2 F,2 | E,2 A,2 F,2 D,2 | B,2 B,2 B,2 B,2 | A, A,3 B,2 A,2 |
+B,2 B,2 B,2 B,2 | A, A,3 B,2 A,2 | F,2 A,2 D,2 F,2 | E,2 A,2 F,2 z2 | F,2 A,2 D,2 F,2 | E,2 A,2 D,2 z2 |]
