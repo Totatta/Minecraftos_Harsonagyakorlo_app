@@ -1,0 +1,33 @@
+% Hangépítő – darabok
+% Minden darab X: sorral kezdődik, a darabok között legyen egy üres sor.
+% Új darabot a végére másolj (a kotta-prompt.txt-ben lévő prompttal kapod meg egy MI-től).
+
+X:42
+T:42. Allegretto
+C:Joseph Vernon
+M:4/4
+L:1/8
+K:Ab clef=bass
+C2 CC A,2 A,A, | B,CB,A, G,2 A,B, | C4 A,3 A, | B,CB,A, G,2 E,2 | F,2 G,2 A,2 B,2 | CB,A,G, F,2 =E,E, |
+F,2 G,2 A,2 B,2 | CB,A,G, F,2 A,B, | C4 A,3 A, | B,CB,A, G,2 =E,E, | F,2 G,2 A,2 B,2 | CB,A,G, F,4 :|
+
+X:43
+T:43. Andantino
+C:cseh népdal
+M:3/4
+L:1/8
+K:F clef=bass
+|: F,2 E,2 D,2 | A,4 B,2 | G,4 F,2 | E,6 :|
+|: A,2 A,2 A,2 | C3 B, A,2 | A,2 G,4 |1 F,6 :|2 F,4 ||
+|: A,2 | G,4 F,2 | E,4 A,2 | G,4 F,2 | E,6 | E,2 F,2 G,2 | A,6 | G,2 F,2 E,2 |1 D,4 :|2 D,6 |]
+
+X:44
+T:44. Allegro marciale
+C:A. Diabelli
+M:C
+L:1/8
+K:F clef=bass
+D,2 F,2 A,2 G,F, | E,2 G,2 A,2 G,E, | F,2 E,2 D,2 E,F, | E,2 A,A, A,2 A,2 | D,2 F,F, A,2 G,F, | E,2 G,G, A,2 G,E, |
+F,2 D,D, E,2 A,2 | D,2 D,D, D,2 z2 :|
+|: F,2 F,F, F,2 E,F, | G,3 A, G,2 z F, | E,F,G,F, E,F,G,E, | F,3 G, A,2 z2 |
+A,2 G,G, G,2 F,F, | F,2 E,E, D,2 E,2 | F,2 E,D, E,2 A,A, | D,2 D,D, D,2 z2 :|

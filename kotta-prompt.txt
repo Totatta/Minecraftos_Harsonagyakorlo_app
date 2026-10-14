@@ -1,0 +1,60 @@
+A csatolt fotón basszuskulcsos szólókotta van (harsonára). Írd át ABC notation formátumba az alábbi szabályok szerint. A válaszod egyetlen kódblokk legyen, előtte és utána ne írj semmit. Ha a fotón több darab van, mindegyiket írd át, egymás után, köztük egy üres sorral (kivéve, ha alább megadom, melyik kell).
+
+1. FEJLÉC, minden darabnál pontosan ebben a sorrendben:
+X:<a darab sorszáma a kottán; ha nincs, 1>
+T:<sorszám>. <cím vagy tempójelzés>        például: T:43. Andantino
+C:<zeneszerző, ha fel van tüntetve; népdalnál pl. cseh népdal>
+M:<ütemmutató: 4/4, 3/4, 2/4, 6/8, 2/2 ... A C jel = 4/4, az áthúzott C = 2/2>
+L:1/8
+K:<hangnem az előjegyzés alapján, angol jelöléssel> clef=bass
+   Előjegyzés → K: dúrban: nincs = C, 1♭ = F, 2♭ = Bb, 3♭ = Eb, 4♭ = Ab, 5♭ = Db, 1♯ = G, 2♯ = D, 3♯ = A, 4♯ = E.
+   Ha a darab mollban van, m utótag: Dm, Gm, Cm, Fm, Am, Em ... (a dallam zárlata alapján döntsd el).
+
+2. HANGMAGASSÁG (basszuskulcs!). Vonalak alulról felfelé, a kottakép szerint:
+   2. alsó pótvonal: C,,     alatta/felette lévő közök: B,,, ill. D,,
+   1. alsó pótvonal: E,,     a vonalrendszer alatti köz: F,,
+   1. (legalsó) vonal: G,,   1. köz: A,,
+   2. vonal: B,,             2. köz: C,
+   3. (középső) vonal: D,    3. köz: E,
+   4. vonal: F,              4. köz: G,
+   5. (legfelső) vonal: A,   felette a köz: B,
+   1. felső pótvonal: C (= egyvonalas c)   felette: D
+   2. felső pótvonal: E      felette: F   3. felső pótvonal: G
+   Fontos: az ABC-ben a B betű a magyar H hangot jelenti, a magyar b hang _B (vagy előjegyzésből B).
+   Ha a kotta tenorkulcsos, a valódi hangmagasságot írd ugyanígy.
+
+3. MÓDOSÍTÓJELEK: az előjegyzést a K: sor már tartalmazza, ezért azt NE írd a hangok elé. Csak a kottában ténylegesen kiírt alkalmi jeleket írd: ^ = kereszt, _ = bé, = = feloldó (pl. =E, ^F, _B,). Az ütemen belül a jel érvényben marad, ahogy a kottában is; a következő ütemben ugyanúgy írd ki, ahogy a kottában áll.
+
+4. RITMUS (L:1/8, tehát az egység a nyolcad):
+   tizenhatod: C/2   nyolcad: C   pontozott nyolcad: C3/2   negyed: C2   pontozott negyed: C3
+   fél: C4   pontozott fél: C6   egész: C8
+   Szünet: z ugyanígy (z = nyolcadszünet, z2 = negyed, z4 = fél, z8 = egész ütem 4/4-ben).
+   Triola: (3 C D E   (három nyolcad egy negyed helyén).
+   Átkötés ugyanarra a hangra: C2- C2 (ütemvonalon át is így).
+   Kötőívet, staccatót, akcentust, dinamikát, levegővételt, fermátát, ujjrendet, szöveget HAGYJ KI.
+
+5. ÜTEMVONALAK, ISMÉTLÉSEK:
+   | ütemvonal, || kettős vonal, |] záróvonal
+   |: ismétlés kezdete, :| ismétlés vége, :|: ha a kettő egymás után jön
+   Volták (befejezések): |1 ... :|2 ... ||   A 2. befejezés után mindig álljon || vagy |] (akkor is, ha a kottában csak sima vonal van).
+   Felütést (csonka első ütemet) ne egészíts ki szünettel, írd úgy, ahogy a kottában van.
+   Ha ismétlésjel vagy volta ütem közben áll (pl. a 2. befejezés fél ütem, utána ismétlésjel és felütés), úgy írd, ahogy a kottában látod.
+   A kotta minden sora külön sor legyen a kódban.
+
+6. ELLENŐRZÉS: írás után ütemenként számold össze a hosszakat. Egy teljes ütem összege: 4/4 → 8, 3/4 → 6, 2/4 → 4, 6/8 → 6, 2/2 → 8 egység. Kivétel a felütés és az ismétlésjel vagy volta miatt kettévágott ütem: ezeknél a két darab együtt adja ki az ütemet. Ha valami nem stimmel, javítsd.
+
+7. Ha valamit nem tudsz biztosan kiolvasni, írd be a legjobb tippedet, és a sor végére tegyél megjegyzést, például:
+   % BIZONYTALAN: 7. ütem 3. hang
+
+8. Csak a fenti jeleket használd: nincs akkord, díszítés, idézőjeles szöveg, V: sor, Q: sor és ütem közbeni [K:] mező.
+
+PÉLDA a formátumra (egy F-dúr, 3/4-es darab ismétlésekkel és voltákkal):
+X:43
+T:43. Andantino
+C:cseh népdal
+M:3/4
+L:1/8
+K:F clef=bass
+|: F,2 E,2 D,2 | A,4 B,2 | G,4 F,2 | E,6 :|
+|: A,2 A,2 A,2 | C3 B, A,2 | A,2 G,4 |1 F,6 :|2 F,4 ||
+|: A,2 | G,4 F,2 | E,4 A,2 | G,4 F,2 | E,6 | E,2 F,2 G,2 | A,6 | G,2 F,2 E,2 |1 D,4 :|2 D,6 |]
