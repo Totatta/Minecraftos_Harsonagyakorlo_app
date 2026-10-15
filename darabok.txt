@@ -49,3 +49,11 @@ K:D clef=bass
 z8 | z8 |: F,2 F,2 A, A,2 A, | B, A, G, F, G,2 G,2 |
 E,2 E,2 G, G,2 G, | A, G, F, E, F,2 F,2 | F,2 F,2 A, A,2 A, | B, B, C F, D2 B,2 |
 A,2 A,2 D B,2 A, |1 G, F, E, A, A,2 G,2 :|2 G, F, E, A, D,2 D,2 || z8 | z8 |]
+
+X:1
+T:1. Tündér – Fairy
+M:4/4
+L:1/8
+K:C clef=bass
+z8 | z8 | E, E, D, C, D,2 A,,2 | B,,2 C, D, C,2 G,,2 | C, C, B,, C, D, D, C, D, |
+E, E, F, E, E,2 D,2 | C, C, D, D, E,2 E,2 |1 F, F, E, D, C,2 C,2 :|2 F, F, E, D, C,2 C,2- || C,8 | z8 |]
